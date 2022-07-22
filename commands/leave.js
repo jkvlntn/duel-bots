@@ -2,7 +2,10 @@ import Command from "../classes/Command.js";
 
 class Leave extends Command {
   async run(message){
-    this.client.voiceConnection.destroy();
+    if(this.client.voiceConnection != null){
+      this.client.voiceConnection.destroy();
+      this.client.voiceConnection = null;
+    }
   }
 }
 
