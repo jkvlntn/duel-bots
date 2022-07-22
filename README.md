@@ -1,6 +1,6 @@
 Version 1.0
 
-Supports single server bots with a group and unique identifier
+Supports single server bots with a group and unique identifier (ie . a. b. )
 
 Bot supports to following commands
   status - checks the current status of the bot
