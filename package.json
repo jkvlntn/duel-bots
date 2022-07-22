@@ -1,0 +1,30 @@
+{
+  "name": "duel-bots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkvlntn/duel-bots.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkvlntn/duel-bots/issues"
+  },
+  "homepage": "https://github.com/jkvlntn/duel-bots#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/voice": "^0.10.0",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.0.2",
+    "libsodium-wrappers": "^0.7.10"
+  }
+}
